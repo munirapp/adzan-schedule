@@ -2,7 +2,7 @@
 This is simple way to make list schedule of  Moslem Prayer Time with API from aladhan.com
 
 # API Moeslem Prayer Time Documentation & Reference
-https://aladhan.com/prayer-times-api
+https://aladhan.com/prayer-times-api \n
 https://aladhan.com/calculation-methods
 http://php.net/manual/en/timezones.php
 
