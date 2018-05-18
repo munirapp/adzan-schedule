@@ -1,0 +1,61 @@
+body, html {
+  background: url('http://images-hdwallpapers.com/wp-content/uploads/2017/06/Lovely-Moon-Night-Wallpaper.jpg');
+}		
+td:nth-child(1), th:nth-child(1) { max-width: 45px; }
+	td:nth-child(2), th:nth-child(2) { width: 200px; }
+.wrapper {
+	margin: 0 auto;
+	max-width: 950px;
+	background-color: #fff;
+}
+.header{
+	padding: 15px 15px;
+	background : linear-gradient(to right, #6c5ce7,#8e44ad,#6c5ce7);
+	color: #fff;
+	text-align: center;
+}
+.form-jadwal {
+	padding: 10px 10px;
+	background-color: #a29bfe;
+}
+.form-jadwal-content {
+	margin: 0 auto;
+	max-width: 600px;
+	display: flex;
+	justify-content: center;
+	font-size: 16pt;
+	transform: scale(0.8);
+}
+.form-label {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16pt;
+}
+.content-jadwal {
+	font-size: 10pt;
+}
+.jadwal-selected{
+	background-color: #8e44ad !important;
+	color: #fff;
+}
+#header-fixed {
+    position: fixed !important;
+    display:none;
+    background : linear-gradient(to right, #6c5ce7,#8e44ad,#6c5ce7);
+    color: #fff;
+    border:none;
+    top: 0px;
+    max-width: 950px;
+}
+
+.footer {
+	background : linear-gradient(to right, #6c5ce7,#8e44ad,#6c5ce7);
+	padding: 20px 20px;
+	color: #fff;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 10pt;
+}
+.footer a {
+	color: #fff;
+}
