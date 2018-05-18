@@ -10,8 +10,13 @@ https://github.com/cahyadsn/adzan (Indonesian Languange)
 # Technologies
 PHP, Javascript, HTML, CSS, JSON
 
+# Requirements
+- Internet Connection (Not Support Offline) <br>
+- PHP 5.0 or Higher 
+
 # Contact-me
 http://telegram.me/mumundira <br>
 http://fb.me/biginspire <br>
+
 
 
