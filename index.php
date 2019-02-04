@@ -20,7 +20,7 @@
 	<div class="wrapper">
 		<div class="header">
 			<h4>Jadwal Imsakiyah & Sholat 5 Waktu</h4>
-			<h6 id="title-month">2018 / 1439 H</h6>
+			<h6 id="title-month"><?php echo date('Y'); ?></h6>
 		</div>
 		<div class="form-jadwal">
 			<div class="form-jadwal-content">

@@ -7,7 +7,6 @@ class Adzan
 {
 
 	public $default_city = 'Makassar';
-	public $default_month= '5';
 	
 	function get_data($kota,$bulan){
 
@@ -16,7 +15,7 @@ class Adzan
 		} 
 
 		if ($bulan == null) {
-			$bulan = $this->default_month;
+			$bulan = date('n');
 		}
 
 		$url = 'http://api.aladhan.com/v1/calendarByCity'; // Base Url
@@ -28,7 +27,7 @@ class Adzan
 		visit : https://aladhan.com/calculation-methods
 		*/
 		$url .='&month='.$bulan; // Select Month
-		$url .='&year=2018'; // Select Year
+		$url .='&year='.date('Y'); // Select Year
 		$file = file_get_contents($url); // Get Content Data from API
 		$data = json_decode($file); // Decode JSON Data
 		$total_row = count($data->data); // Count total data prayer time in one month
