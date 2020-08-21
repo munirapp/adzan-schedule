@@ -1,4 +1,4 @@
-# simpel-adzan-schedule
+# adzan-schedule
 This is simple way to make list schedule of  Moslem Prayer Time with API from aladhan.com
 
 # API Moslem Prayer Time Documentation & Reference
